@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_page_pricinb_boxes",
+  "collectionName": "components_page_pricing_boxes",
   "info": {
-    "name": "pricinbBox",
+    "name": "pricingBox",
     "icon": "dollar-sign"
   },
   "options": {},
