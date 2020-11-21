@@ -52,6 +52,5 @@ services:
 ## 3. Run docker-compose run -D
 
 If you have an error when initialize docker-compose, try up your database first and then strapi container .
-This step spended 5min to me, maybe is a good time to some coffee :)
+This step spended 5min to me, maybe is a good time to enjoy a coffee :)
 
-Enjoy :)
