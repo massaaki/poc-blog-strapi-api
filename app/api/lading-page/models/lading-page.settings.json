@@ -1,5 +1,5 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "lading_pages",
   "info": {
     "name": "LadingPage",
@@ -34,6 +34,27 @@
       "type": "component",
       "repeatable": false,
       "component": "page.section-tech"
+    },
+    "sectionConcepts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-concepts"
+    },
+    "sectionModules": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-modules",
+      "required": true
+    },
+    "sectionAgenda": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-agenda"
+    },
+    "pricinbBox": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.pricinb-box"
     }
   }
 }

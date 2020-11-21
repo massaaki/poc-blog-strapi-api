@@ -2,39 +2,15 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/lading-pages",
+      "path": "/lading-page",
       "handler": "lading-page.find",
       "config": {
         "policies": []
       }
     },
     {
-      "method": "GET",
-      "path": "/lading-pages/count",
-      "handler": "lading-page.count",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "GET",
-      "path": "/lading-pages/:id",
-      "handler": "lading-page.findOne",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "POST",
-      "path": "/lading-pages",
-      "handler": "lading-page.create",
-      "config": {
-        "policies": []
-      }
-    },
-    {
       "method": "PUT",
-      "path": "/lading-pages/:id",
+      "path": "/lading-page",
       "handler": "lading-page.update",
       "config": {
         "policies": []
@@ -42,7 +18,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/lading-pages/:id",
+      "path": "/lading-page",
       "handler": "lading-page.delete",
       "config": {
         "policies": []
